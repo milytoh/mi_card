@@ -22,17 +22,18 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                backgroundColor: Colors.redAccent,
-                radius: 40,
+                backgroundImage: AssetImage('assets/mili.jpg') ,
+                radius: 80,
 
               ),
               SizedBox(height: 10.0),
               Text(
                 'milytoh Legend',
                 style: TextStyle(
-                  fontSize: 20.0,
+                  fontSize: 37.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
+                  fontFamily: 'Pacifico',
                 ),
               ),
               SizedBox(height: 20.0),
@@ -74,7 +75,7 @@ class _MyAppState extends State<MyApp> {
                     '+2349066686899',
                     style: TextStyle(
                       color: Colors.pink[600],
-                      fontSize: 17.0,
+                      fontSize: 20.0,
                     ),
                   ),
                 ),
@@ -90,9 +91,30 @@ class _MyAppState extends State<MyApp> {
                     'milytohgold@gmail.com',
                     style: TextStyle(
                       color: Colors.pink[600],
-                      fontSize: 17.0,
+                      fontSize: 20.0,
                     ),
                   ),
+                ),
+              ),
+
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Row(
+                  children: [
+                    Image(
+                      width: 40.0,
+                      height: 55.0,
+                      image: AssetImage('assets/what.jpg'),
+                    ),
+                    SizedBox(width: 25),
+                    Text(
+                      '+2348098141698',
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.pink[600],
+                      ),
+                    ),
+                  ],
                 ),
               ),
 
