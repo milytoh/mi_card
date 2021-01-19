@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
               Text(
                 ' WEB AND',
                 style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 25,
                     fontWeight: FontWeight.w300,
                     letterSpacing: 2.0,
                     color: Colors.white
@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
               Text(
                 ' MOBILE APP DEVELOPER',
                 style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 25,
                     fontWeight: FontWeight.w300,
                     letterSpacing: 2.0,
                     color: Colors.white
@@ -72,7 +72,7 @@ class _MyAppState extends State<MyApp> {
                     color: Colors.pink[600],
                   ),
                   title: Text(
-                    '+2349066686899',
+                    '+2348179826157',
                     style: TextStyle(
                       color: Colors.pink[600],
                       fontSize: 20.0,
@@ -101,14 +101,40 @@ class _MyAppState extends State<MyApp> {
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 child: Row(
                   children: [
-                    Image(
-                      width: 40.0,
-                      height: 55.0,
-                      image: AssetImage('assets/what.jpg'),
+                    Padding(
+                      padding:  EdgeInsets.fromLTRB(13.0, 0.0, 0.0, 0.0),
+                      child: Image(
+                        width: 40.0,
+                        height: 55.0,
+                        image: AssetImage('assets/what.jpg'),
+                      ),
                     ),
                     SizedBox(width: 25),
                     Text(
                       '+2348098141698',
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.pink[600],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding:  EdgeInsets.fromLTRB(13.0, 0.0, 0.0, 0.0),
+                      child: Image(
+                        width: 40.0,
+                        height: 55.0,
+                        image: AssetImage('assets/face.png'),
+                      ),
+                    ),
+                    SizedBox(width: 25),
+                    Text(
+                      'Nwafor Miracle Milito',
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.pink[600],
