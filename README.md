@@ -2,7 +2,7 @@
 
 # Mi Card
  ### This app is an app that shows my card and profile
- ##App was built with flutter
+ ## App was built with flutter
  
 ![Screenshot_20210709-213139](https://user-images.githubusercontent.com/61844423/125133765-417da380-e0fe-11eb-9ced-4bdc41fde343.png)
 
